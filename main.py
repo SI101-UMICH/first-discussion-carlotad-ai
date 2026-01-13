@@ -44,4 +44,8 @@ if __name__ == "__main__":
 
     movie = get_movie("Inception")
     print(movie)
+    print(movie["title"]) 
+
+    movie = get_movie("the holiday")
+    print(movie)
     print(movie["title"])
